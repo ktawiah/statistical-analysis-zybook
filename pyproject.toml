@@ -1,0 +1,19 @@
+[project]
+name = "data-analysis"
+version = "0.1.0"
+description = "Project repo for Zybook Data Analysis course"
+authors = [
+    {name = "Kelvin",email = "kelvintawiah224@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
